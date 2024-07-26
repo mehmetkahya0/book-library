@@ -8,8 +8,13 @@ body {
   color: #333;
 }
 
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
 header {
-  background-color: #6200ea;
+  background-color: #112d73;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -35,9 +40,9 @@ section {
 }
 
 h2 {
-  border-bottom: 2px solid #6200ea;
+  border-bottom: 2px solid #112d73;
   padding-bottom: 0.5rem;
-  color: #6200ea;
+  color: #112d73;
   font-size: 1.75rem;
 }
 
@@ -63,11 +68,11 @@ form input:focus,
 form select:focus,
 form button:focus {
   outline: none;
-  border-color: #6200ea;
+  border-color: #112d73;
 }
 
 form button {
-  background-color: #6200ea;
+  background-color: #112d73;
   color: white;
   border: none;
   cursor: pointer;
@@ -96,7 +101,7 @@ form button:hover {
   flex: 1;
   padding: 0.75rem 2rem;
   min-width: calc(50% - 1rem);
-  background-color: #6200ea;
+  background-color: #112d73;
   color: white;
   border: none;
   cursor: pointer;
