@@ -156,7 +156,23 @@ form button:hover {
 }
 
 @media (max-width: 600px) {
+  header {
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: medium !important;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: 1.25rem;
+  }
+
   main {
+    font-size: medium;
     margin: 1rem;
     padding: 1rem;
   }
@@ -164,7 +180,7 @@ form button:hover {
   #filters input,
   #filters select,
   #filters button {
-    min-width: 100%;
+    min-width: 100%;;
   }
 
   #filters {
