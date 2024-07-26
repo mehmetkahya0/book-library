@@ -48,8 +48,6 @@ book-library/
 ├── index.html # Main HTML file
 └── README.md # This README file
 
-markdown
-Kodu kopyala
 
 ## Usage
 
