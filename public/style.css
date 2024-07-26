@@ -1,0 +1,141 @@
+/* styles.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  border-bottom: 2px solid #6200ea;
+  padding-bottom: 0.5rem;
+  color: #6200ea;
+  font-size: 1.75rem;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+form input:focus,
+form select:focus,
+form button:focus {
+  outline: none;
+  border-color: #6200ea;
+}
+
+form button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#filters input,
+#filters select {
+  flex: 1;
+  min-width: calc(50% - 1rem);
+}
+
+#filters button {
+  flex: 1;
+  padding: 0.75rem 2rem;
+  min-width: calc(50% - 1rem);
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#filters button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+}
+
+#books {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#books li {
+  background-color: #f9f9f9;
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+  border-left: 5px solid #6200ea;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  #filters input,
+  #filters select,
+  #filters button {
+    min-width: 100%;
+  }
+
+  #filters {
+    gap: 0.5rem;
+  }
+}
